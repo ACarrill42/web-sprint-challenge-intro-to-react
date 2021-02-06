@@ -77,11 +77,11 @@ Your finished project must include all of the following requirements:
 
 ### Required best practices
 
-- [ ] Consistent naming. Examples: variables, functions, Components, and file/folder organization.
-- [ ] Consistent spacing. Examples: line breaks, around arguments and before/after functions.
-- [ ] Consistent quotation usage.
-- [ ] Spell-check.
-- [ ] Schedule time to review, refine and reassess your work.
+- [X] Consistent naming. Examples: variables, functions, Components, and file/folder organization.
+- [X] Consistent spacing. Examples: line breaks, around arguments and before/after functions.
+- [X] Consistent quotation usage.
+- [X] Spell-check.
+- [X] Schedule time to review, refine and reassess your work.
 
 It is better to submit a challenge that meets [MVP](https://en.wikipedia.org/wiki/Minimum_viable_product) than one that attempts too much and fails.
 

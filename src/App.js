@@ -3,9 +3,11 @@ import Character from './components/Character';
 import './App.css';
 import axios from 'axios';
 
+// Must refresh App.js and Character.js to render on portal.
+
 const App = () => {
   // State
-  const [characters,setCharacters] = useState([]);
+  const [ characters , setCharacters ] = useState([]);
 
   // Fetching info from Star Wars API
   const fetchSWA = () => {
@@ -16,9 +18,9 @@ const App = () => {
     })
     .catch(err => {
       console.log(err);
-    })
-  }
-  useEffect(fetchSWA, [])
+    });
+  };
+  useEffect(fetchSWA, []);
 
   return (
     <div className="App">
@@ -26,6 +28,6 @@ const App = () => {
       { characters.map(info => <Character key = {info.name} props = {info}/>) }
     </div>
   );
-}
+};
 
 export default App;
