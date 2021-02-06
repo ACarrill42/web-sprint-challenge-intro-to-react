@@ -30,11 +30,19 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 1. What is React JS and what problems does it solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+  React JS is a UI Component library developed by Facebook. It allows the developer to create reusable, scalable components. Also allows the developer to work with complex state. This is possible with the theory of 'Seperation of concerns'. Basically saying each piece of code should only perform one thing. This is possible with utilizing declarative code.
+
 1. Describe component state.
+
+  Component state allows the component to store information for re-renedering. State changes whenever something changes within the code when it is re-rendered.
 
 1. Describe props.
 
+  Props, properties, is what is used to pass data from a parent component to it's child, etc. Props is an object that stores data, that cannot change once it is established.
+
 1. What are side effects, and how do you sync effects in a React component to changes of certain state or props?
+
+  A side effect is something that can cause a component to return a different output with the same state and props. You change it's state throught it's dependency array. With [] you don't pass state but with [state, props] you pass whatever you need to pass.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
@@ -42,15 +50,15 @@ You are expected to be able to answer questions in these areas. Your responses c
 
 ### Task 1: Project Set Up
 
-- [ ] Create a forked copy of this project
-- [ ] Add your team lead as collaborator on Github
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!)
-- [ ] Create a new branch: `git checkout -b <firstName-lastName>`.
-- [ ] Run `npm install` to retrieve all needed dependencies.
-- [ ] Once you have installed the _node_modules_, run `npm start` to get your server up and running.
-- [ ] With the server up and running, open Chrome and head over to `localhost:3000` and view your beautiful app. Maybe it's not _that_ pretty... _yet_, your goal is to ensure this project becomes a thing of beauty.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly
-- [ ] Push commits: `git push origin <firstName-lastName>`
+- [X] Create a forked copy of this project
+- [X] Add your team lead as collaborator on Github
+- [X] Clone your OWN version of the repository (Not Lambda's by mistake!)
+- [X] Create a new branch: `git checkout -b <firstName-lastName>`.
+- [X] Run `npm install` to retrieve all needed dependencies.
+- [X] Once you have installed the _node_modules_, run `npm start` to get your server up and running.
+- [X] With the server up and running, open Chrome and head over to `localhost:3000` and view your beautiful app. Maybe it's not _that_ pretty... _yet_, your goal is to ensure this project becomes a thing of beauty.
+- [X] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly
+- [X] Push commits: `git push origin <firstName-lastName>`
 
 ### Task 2: Project Requirements
 
@@ -61,7 +69,7 @@ Your finished project must include all of the following requirements:
 - [X] Use the documentation and Google to learn how to fetch characters from your API.
 - [X] Obtain a list of characters. One or several requests might be needed, depending on the API.
 - [X] Set the list of characters into state.
-- [ ] Render your characters to the screen:
+- [X] Render your characters to the screen:
   - Build a React component named 'Character' to render an individual character.
   - Map over the list in state, and for each character render a Character to the page.
   - You must display at least one element for each character in the data set.
